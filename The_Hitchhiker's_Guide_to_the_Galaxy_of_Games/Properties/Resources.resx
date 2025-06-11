@@ -118,22 +118,196 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="avatar_image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avatar_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="enter_gif_cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\enter_gif_cut.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="avatar_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avatar_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="game_form_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\game_form_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="enter_gif" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enter_gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="main_form_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main_form_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="enter_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\enter_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="help_button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\help_button.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snufkin_and_moomin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snufkin_and_moomin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="candle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\candle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enter_gif_cut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enter_gif_cut.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_b_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_b_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snork_maiden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\snork_maiden.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_form_backround" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candle_form_backround.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_style2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candle_style21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_style3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candle_style31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avatar_image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatar_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avatar_image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatar_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_style1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\candle_style11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achieve_candle_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\achieve_candle_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achieve_candle_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\achieve_candle_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achieve_candle_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\achieve_candle_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achieve_games_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\achieve_games_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achieve_games_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\achieve_games_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achieve_games_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\achieve_games_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achieve_games_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\achieve_games_4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="achieve_games_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\achieve_games_5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avatar_image2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\avatar_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_b_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_b_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_b_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_b_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_form_backround1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_form_backround.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_style_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_style_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_style_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_style_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="candle_style_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\candle_style_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enter_gif1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\enter_gif.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enter_image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\enter_image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="game_form_background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\game_form_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="help_button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\help_button.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="junior_alliance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\junior_alliance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="junior_bad_weather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\junior_bad_weather.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="junior_five" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\junior_five.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="junior_KTD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\junior_KTD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="junior_leader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\junior_leader.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="junior_peace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\junior_peace.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="junior_welcome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\junior_welcome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main_form_background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\main_form_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middle_alliance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\middle_alliance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middle_bad_weather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\middle_bad_weather.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middle_five" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\middle_five.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middle_KTD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\middle_KTD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middle_leader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\middle_leader.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middle_peace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\middle_peace.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="middle_welcome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\middle_welcome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="senior_alliance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\senior_alliance.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="senior_bad_weather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\senior_bad_weather.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="senior_five" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\senior_five.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="senior_KTD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\senior_KTD.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="senior_leader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\senior_leader.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="senior_peace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\senior_peace.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="senior_welcome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\senior_welcome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snork_maiden1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\snork_maiden.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="snufkin_and_moomin1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\snufkin_and_moomin.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="text_box_background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\bin\Debug\Pictures\text_box_background.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

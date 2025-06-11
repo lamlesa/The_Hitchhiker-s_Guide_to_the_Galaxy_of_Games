@@ -28,69 +28,124 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.START_button = new System.Windows.Forms.Button();
+            this.press_start_gif = new System.Windows.Forms.PictureBox();
+            this.moomin_snufkin = new System.Windows.Forms.PictureBox();
+            this.snork_maiden_gif = new System.Windows.Forms.PictureBox();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.press_start_gif)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moomin_snufkin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snork_maiden_gif)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // START_button
             // 
-            this.button1.BackColor = System.Drawing.Color.Lavender;
-            this.button1.Font = new System.Drawing.Font("MS PGothic", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(382, 628);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(339, 94);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "START";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.START_button.BackColor = System.Drawing.Color.Lavender;
+            this.START_button.Font = new System.Drawing.Font("MV Boli", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.START_button.ForeColor = System.Drawing.SystemColors.InfoText;
+            this.START_button.Location = new System.Drawing.Point(217, 296);
+            this.START_button.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.START_button.Name = "START_button";
+            this.START_button.Size = new System.Drawing.Size(225, 60);
+            this.START_button.TabIndex = 0;
+            this.START_button.Text = "START";
+            this.START_button.UseVisualStyleBackColor = false;
+            this.START_button.Click += new System.EventHandler(this.button_Click);
             // 
-            // pictureBox1
+            // press_start_gif
             // 
-            this.pictureBox1.Image = global::The_Hitchhiker_s_Guide_to_the_Galaxy_of_Games.Properties.Resources.enter_gif;
-            this.pictureBox1.Location = new System.Drawing.Point(318, 69);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(468, 237);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.press_start_gif.Image = global::The_Hitchhiker_s_Guide_to_the_Galaxy_of_Games.Properties.Resources.enter_gif;
+            this.press_start_gif.Location = new System.Drawing.Point(174, 45);
+            this.press_start_gif.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.press_start_gif.Name = "press_start_gif";
+            this.press_start_gif.Size = new System.Drawing.Size(310, 155);
+            this.press_start_gif.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.press_start_gif.TabIndex = 2;
+            this.press_start_gif.TabStop = false;
             // 
-            // pictureBox2
+            // moomin_snufkin
             // 
-            this.pictureBox2.BackgroundImage = global::The_Hitchhiker_s_Guide_to_the_Galaxy_of_Games.Properties.Resources.enter_image;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1104, 832);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
+            this.moomin_snufkin.Image = global::The_Hitchhiker_s_Guide_to_the_Galaxy_of_Games.Properties.Resources.snufkin_and_moomin;
+            this.moomin_snufkin.Location = new System.Drawing.Point(465, 225);
+            this.moomin_snufkin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.moomin_snufkin.Name = "moomin_snufkin";
+            this.moomin_snufkin.Size = new System.Drawing.Size(170, 105);
+            this.moomin_snufkin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.moomin_snufkin.TabIndex = 3;
+            this.moomin_snufkin.TabStop = false;
+            // 
+            // snork_maiden_gif
+            // 
+            this.snork_maiden_gif.Image = global::The_Hitchhiker_s_Guide_to_the_Galaxy_of_Games.Properties.Resources.snork_maiden;
+            this.snork_maiden_gif.Location = new System.Drawing.Point(15, 70);
+            this.snork_maiden_gif.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.snork_maiden_gif.Name = "snork_maiden_gif";
+            this.snork_maiden_gif.Size = new System.Drawing.Size(140, 85);
+            this.snork_maiden_gif.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.snork_maiden_gif.TabIndex = 4;
+            this.snork_maiden_gif.TabStop = false;
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::The_Hitchhiker_s_Guide_to_the_Galaxy_of_Games.Properties.Resources.enter_image;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(660, 383);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.SystemColors.ControlText;
+            this.label1.Font = new System.Drawing.Font("Monotype Corsiva", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(206, 67);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(261, 22);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "WELCOME TO OUR FIESTA !";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.AutoValidate = System.Windows.Forms.AutoValidate.Disable;
-            this.ClientSize = new System.Drawing.Size(1104, 832);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox2);
+            this.ClientSize = new System.Drawing.Size(659, 381);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.snork_maiden_gif);
+            this.Controls.Add(this.moomin_snufkin);
+            this.Controls.Add(this.press_start_gif);
+            this.Controls.Add(this.START_button);
+            this.Controls.Add(this.pictureBox4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "The_Hitchhiker\'s_Guide_to_the_Galaxy_of_Games";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.press_start_gif)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.moomin_snufkin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.snork_maiden_gif)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button START_button;
+        private System.Windows.Forms.PictureBox press_start_gif;
+        private System.Windows.Forms.PictureBox moomin_snufkin;
+        private System.Windows.Forms.PictureBox snork_maiden_gif;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label label1;
     }
 }
 

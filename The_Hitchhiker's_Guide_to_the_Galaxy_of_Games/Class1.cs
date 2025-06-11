@@ -3,5 +3,6 @@
     public class Player
     {
         public static int number_of_games_played = 0;
+        public static int number_of_candles = 0;
     }
 }

@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Achieve_messagebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Achieve_messagebox.Designer.cs">
+      <DependentUpon>Achieve_messagebox.cs</DependentUpon>
+    </Compile>
     <Compile Include="CandleForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,22 +71,46 @@
     <Compile Include="Game_Form.Designer.cs">
       <DependentUpon>Game_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
     <Compile Include="Main_Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main_Form.Designer.cs">
       <DependentUpon>Main_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Particular_Candle_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Particular_Candle_Form.Designer.cs">
+      <DependentUpon>Particular_Candle_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Achieve_messagebox.resx">
+      <DependentUpon>Achieve_messagebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CandleForm.resx">
+      <DependentUpon>CandleForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Game_Form.resx">
       <DependentUpon>Game_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Main_Form.resx">
       <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Particular_Candle_Form.resx">
+      <DependentUpon>Particular_Candle_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -118,7 +148,92 @@
     <None Include="Resources\avatar_image.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="bin\Debug\Pictures\candle_b_2.jpg" />
+    <None Include="bin\Debug\Pictures\achieve_candle_1.jpg" />
+    <None Include="bin\Debug\Pictures\achieve_candle_2.jpg" />
+    <None Include="bin\Debug\Pictures\achieve_candle_3.jpg" />
+    <None Include="bin\Debug\Pictures\achieve_games_1.jpg" />
+    <None Include="bin\Debug\Pictures\achieve_games_2.jpg" />
+    <None Include="bin\Debug\Pictures\achieve_games_3.jpg" />
+    <None Include="bin\Debug\Pictures\achieve_games_4.jpg" />
+    <None Include="bin\Debug\Pictures\achieve_games_5.jpg" />
+    <None Include="bin\Debug\Pictures\avatar_image.jpg" />
+    <None Include="bin\Debug\Pictures\candle.png" />
+    <None Include="bin\Debug\Pictures\candle_1.jpg" />
+    <None Include="bin\Debug\Pictures\candle_2.jpg" />
+    <None Include="bin\Debug\Pictures\candle_3.jpg" />
+    <None Include="bin\Debug\Pictures\candle_b_1.jpg" />
+    <None Include="bin\Debug\Pictures\candle_form_backround.jpg" />
+    <None Include="bin\Debug\Pictures\candle_style_1.png" />
+    <None Include="bin\Debug\Pictures\candle_style_2.png" />
+    <None Include="bin\Debug\Pictures\candle_style_3.png" />
+    <None Include="bin\Debug\Pictures\enter_gif.gif" />
+    <None Include="bin\Debug\Pictures\enter_image.jpg" />
+    <None Include="bin\Debug\Pictures\game_form_background.jpg" />
+    <None Include="bin\Debug\Pictures\help_button.jpg" />
+    <None Include="bin\Debug\Pictures\junior_alliance.jpg" />
+    <None Include="bin\Debug\Pictures\junior_bad_weather.jpg" />
+    <None Include="bin\Debug\Pictures\junior_five.jpg" />
+    <None Include="bin\Debug\Pictures\junior_KTD.jpg" />
+    <None Include="bin\Debug\Pictures\junior_leader.jpg" />
+    <None Include="bin\Debug\Pictures\junior_peace.jpg" />
+    <None Include="bin\Debug\Pictures\junior_welcome.jpg" />
+    <None Include="bin\Debug\Pictures\main_form_background.jpg" />
+    <None Include="bin\Debug\Pictures\middle_alliance.jpg" />
+    <None Include="bin\Debug\Pictures\middle_bad_weather.jpg" />
+    <None Include="bin\Debug\Pictures\middle_five.jpg" />
+    <None Include="bin\Debug\Pictures\middle_KTD.jpg" />
+    <None Include="bin\Debug\Pictures\middle_leader.jpg" />
+    <None Include="bin\Debug\Pictures\middle_peace.gif" />
+    <None Include="bin\Debug\Pictures\middle_welcome.jpg" />
+    <None Include="bin\Debug\Pictures\senior_alliance.jpg" />
+    <None Include="bin\Debug\Pictures\senior_bad_weather.jpg" />
+    <None Include="bin\Debug\Pictures\senior_five.jpg" />
+    <None Include="bin\Debug\Pictures\senior_KTD.jpg" />
+    <None Include="bin\Debug\Pictures\senior_leader.jpg" />
+    <None Include="bin\Debug\Pictures\senior_peace.jpg" />
+    <None Include="bin\Debug\Pictures\senior_welcome.jpg" />
+    <None Include="bin\Debug\Pictures\snork_maiden.gif" />
+    <None Include="bin\Debug\Pictures\snufkin_and_moomin.gif" />
+    <None Include="bin\Debug\Pictures\text_box_background.jpg" />
+    <Content Include="Resources\achieve_games_1.jpg" />
     <Content Include="Resources\candle.png" />
+    <None Include="Resources\game_form_background.jpg" />
+    <Content Include="Resources\candle_1.jpg" />
+    <Content Include="Resources\candle_2.jpg" />
+    <Content Include="Resources\candle_3.jpg" />
+    <None Include="Resources\help_button.jpg" />
+    <Content Include="Resources\junior_alliance.jpg" />
+    <Content Include="Resources\junior_bad_weather.jpg" />
+    <Content Include="Resources\junior_five.jpg" />
+    <Content Include="Resources\junior_KTD.jpg" />
+    <Content Include="Resources\junior_leader.jpg" />
+    <Content Include="Resources\junior_peace.jpg" />
+    <Content Include="Resources\junior_welcome.jpg" />
+    <Content Include="Resources\middle_alliance.jpg" />
+    <Content Include="Resources\middle_bad_weather.jpg" />
+    <Content Include="Resources\middle_five.jpg" />
+    <Content Include="Resources\middle_KTD.jpg" />
+    <Content Include="Resources\middle_leader.jpg" />
+    <Content Include="Resources\middle_peace.gif" />
+    <Content Include="Resources\middle_welcome.jpg" />
+    <Content Include="Resources\senior_alliance.jpg" />
+    <Content Include="Resources\senior_bad_weather.jpg" />
+    <Content Include="Resources\senior_five.jpg" />
+    <Content Include="Resources\senior_KTD.jpg" />
+    <Content Include="Resources\senior_leader.jpg" />
+    <Content Include="Resources\senior_peace.jpg" />
+    <Content Include="Resources\senior_welcome.jpg" />
+    <None Include="Resources\snork_maiden.gif" />
+    <None Include="Resources\snufkin_and_moomin.gif" />
+    <None Include="Resources\candle_form_backround.jpg" />
+    <Content Include="Resources\candle_style1.png" />
+    <None Include="Resources\candle_style31.png" />
+    <None Include="Resources\candle_style11.png" />
+    <Content Include="Resources\candle_style2.png" />
+    <None Include="Resources\candle_style21.png" />
+    <Content Include="Resources\candle_style3.png" />
+    <None Include="Resources\main_form_background.jpg" />
     <None Include="Resources\candle1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
